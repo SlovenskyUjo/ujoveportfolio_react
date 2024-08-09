@@ -55,8 +55,8 @@ const Portfolio: React.FC = () => {
                                 index % 2 !== 0 ? "md:flex-row-reverse" : ""
                             } mb-12`}
                         >
-                            <div className="w-full md:w-1/2 p-4 flex-shrink-0 flex">
-                                <div className="w-full h-[300px] overflow-hidden rounded-lg shadow-lg">
+                            <div className="w-full md:w-1/2 p-4 flex justify-center items-center">
+                                <div className="w-full h-full max-h-[300px] overflow-hidden rounded-lg shadow-lg flex items-center justify-center">
                                     <img
                                         src={project.image}
                                         alt={project.name}
