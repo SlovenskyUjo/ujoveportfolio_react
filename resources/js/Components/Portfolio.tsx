@@ -60,8 +60,7 @@ const Portfolio: React.FC = () => {
                                 <img
                                     src={project.image}
                                     alt={project.name}
-                                    className="w-full h-full object-cover rounded-lg shadow-lg"
-                                    style={{ height: "100%" }}
+                                    className="w-full h-auto object-contain rounded-lg shadow-lg"
                                 />
                             </div>
                             <div className="w-full md:w-1/2 p-4 flex flex-col justify-between">
@@ -71,11 +70,11 @@ const Portfolio: React.FC = () => {
                                     </h3>
                                     <p className="text-gray-300 mb-4">{project.description}</p>
                                     <p className="text-gray-400 mb-4">
-                    <span
-                        className={`px-3 py-1 rounded ${categoryColor} text-white`}
-                    >
-                      {project.category}
-                    </span>
+                                        <span
+                                            className={`px-3 py-1 rounded ${categoryColor} text-white`}
+                                        >
+                                            {project.category}
+                                        </span>
                                     </p>
                                 </div>
                                 <div className="flex space-x-4 mt-4">
