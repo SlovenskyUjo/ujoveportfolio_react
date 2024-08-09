@@ -1,14 +1,9 @@
 import React from "react"
 import {
     DiHtml5,
-    DiCss3,
-    DiSass,
-    DiBootstrap,
     DiJavascript1,
     DiReact,
-    DiNodejsSmall,
-    DiMongodb,
-    DiGithubBadge, DiJava, DiMysql,
+    DiMysql, DiLaravel,
 } from "react-icons/di"
 import {FaVuejs} from "react-icons/fa";
 import {RiTailwindCssFill} from "react-icons/ri";
@@ -27,11 +22,12 @@ const skills = [
         ],
     },
     {
-        category: 'Fullstack',
+        category: 'Backend',
         technologies: [
             { name: 'MySQL', icon: <DiMysql className="text-orange-600" /> },
             { name: 'React', icon: <DiReact className='text-blue-600' />},
-            { name: 'GitHub', icon: <DiReact className='text-gray-600' />}
+            { name: 'GitHub', icon: <DiReact className='text-gray-600' />},
+            { name: 'Laravel', icon: <DiLaravel className="text-red-600" /> }
         ]
     }
 ]
