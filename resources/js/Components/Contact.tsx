@@ -42,7 +42,7 @@ const Contact: React.FC = () => {
 
                         <div className="flex mt-10 items-center gap-5">
                             <div className="bg-gray-800/40 p-5 rounded-lg">
-                                <h3 className="md:text-4xl text-2xl font-semibold text-white">5
+                                <h3 className="md:text-4xl text-2xl font-semibold text-white">4
                                     <span>+</span>
                                 </h3>
                                 <p className="text-xs md:text-base"><span>years of experience</span></p>
@@ -52,7 +52,7 @@ const Contact: React.FC = () => {
                                 <h3 className="md:text-4xl text-2xl font-semibold text-white">10
                                     <span>+</span>
                                 </h3>
-                                <p className="text-xs md:text-base"><span>Completed</span></p>
+                                <p className="text-xs md:text-base"><span>Completed projects</span></p>
                             </div>
 
                         </div>
