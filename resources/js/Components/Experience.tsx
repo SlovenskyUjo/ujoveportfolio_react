@@ -2,6 +2,10 @@ import React from "react";
 import { motion } from "framer-motion";
 import Reveal from "@/Components/Reveal";
 
+const experiences = [
+    { company: "BadHub.cz", period: "2024 - present", position: "Developer" }
+]
+
 
 const Experience = () => {
     return (
@@ -12,7 +16,6 @@ const Experience = () => {
                 initial="hidden"
                 animate="visible"
             >
-                {/*
                     {experiences.map((experience, index) => (
                         <Reveal>
                         <motion.div
@@ -25,11 +28,10 @@ const Experience = () => {
                         >
                             <h2 className="text-gray-100 text-2xl font-semibold">{experience.company}</h2>
                             <p className="text-gray-300">{experience.period}</p>
-                            <p className="text-gray-400 mt-4">{experience.description}</p>
+                            <p className="text-gray-400 mt-4">{experience.position}</p>
                         </motion.div>
                         </Reveal>
                     ))}
-                */}
 
             </motion.div>
         </div>
